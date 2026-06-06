@@ -17,11 +17,11 @@ export default function Home() {
           </p>
           
           <div className="max-w-2xl mx-auto">
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 border border-gray-700">
-              <Textarea 
-                placeholder='Example: "Mujhe Netflix-style Anime Streaming App banana hai"'
-                className="mb-4 min-h-[100px] bg-gray-900/50 border-gray-700 text-white"
-              />
+          <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 border border-gray-700">
+            <Input
+              placeholder='Example: "Mujhe Netflix-style Anime Streaming App banana hai"'
+              className="mb-4 min-h-[100px] bg-gray-900/50 border-gray-700 text-white"
+            />
               <div className="flex gap-2 mb-4">
                 <Input placeholder="Project Name" className="flex-1 bg-gray-900/50 border-gray-700 text-white" />
                 <Button variant="outline" size="icon">
